@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.maze{
+	margin: auto;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+
+.tile{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: black solid 1px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.tile img{
+	position: relative;
+	top: -0.5px;
+	right: 0;
+	width: 50px;
+	height: 50px;	
+	border-radius: 10px;
+}
+
+.buttons{
+	margin-top: 50px;
+}
+
+.red,.blue{
+	
+}
+
+@keyframes fade{
+	0%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0;
+	}
+
+	99%{
+		opacity: 1;
+	}
+}
+
+#endScore{
+	font-size: 300%;
+}

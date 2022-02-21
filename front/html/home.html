@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<title>ColorMaze</title>
+</head>
+<body>
+
+	<div class="play">
+		<div class="maze"></div>
+
+		<div class="buttons">
+			<button onclick="gameVar.displayColor('red')"class="red">Red Maze</button>
+			<button onclick="gameVar.displayColor('blue')" class="blue">Blue Maze</button>
+		</div>
+
+		<span id="score"></span>
+	</div>
+
+	<div class="endScreen">
+		<span id="endScore"></span>
+	</div>
+	
+
+	<script type="text/javascript" src="../js/mazeArrays.js"></script>
+	<script type="text/javascript" src="../js/maze.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>
